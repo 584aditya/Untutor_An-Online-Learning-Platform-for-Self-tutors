@@ -13,7 +13,12 @@
     <section class="header">
         <img src="/Assets/background.jpeg" class="back-video">
         <nav id="navbar">
-            <img src="/Assets/Logo2.png" class="logo">
+            <div id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+            </div>
+            <a href="index.html"><img src="/Assets/Logo2.png" class="logo"></a>
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="index1.html">Papers&nbsp;&nbsp;<i class="fa-solid fa-caret-down" id="ad"></i></a>
@@ -22,13 +27,7 @@
                         <li><a href="">M.Tech</a></li>
                         <li><a href="">BCA</a></li>
                         <li><a href="">Ph.d</a></li>
-                        <li><a href="">Others&nbsp;&nbsp;<i class="fa-solid fa-caret-down" style="transform: rotate(-90deg);"></i></a>
-                            <ul>
-                                <li><a href="#">2008-2011</a></li>
-                                <li><a href="#">2012-2015</a></li>
-                                <li><a href="#">2016-2019</a></li>
-                                <li><a href="#">2020-2023</a></li>
-                            </ul>
+                        <li><a href="">Others</a>
                         </li>
                     </ul>
                 </li>
@@ -61,17 +60,4 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies nec nisi a hendrerit. Sed vehicula, mauris et viverra varius, enim ligula faucibus mi, ut venenatis risus tellus quis mi. Quisque ut fermentum augue. Mauris tristique ligula at sem volutpat semper eleifend ac turpis. Curabitur eget ipsum sed neque cursus semper non eget ipsum. Curabitur sapien mi, pulvinar vitae pretium id, tincidunt nec tellus. Maecenas posuere mollis massa a condimentum. Etiam et sollicitudin nulla, ut vehicula enim. Pellentesque fringilla nec velit id condimentum. Nulla ultricies rutrum leo. Morbi tellus nulla, cursus id sapien ac, pellentesque viverra libero. Etiam facilisis euismod euismod. In hendrerit tortor quis orci dictum, at blandit massa ullamcorper. Phasellus nec risus vehicula, maximus nulla non, iaculis neque. Nullam ultricies malesuada leo, fringilla dapibus orci convallis sed.</p>
     </section>
 </body>
-<script>
-    var navbar = document.getElementById("navbar");
-    var menu = document.getElementById("menu");
-
-    window.onscroll = function(){
-        if(window.pageYOffset >= menu.offsetTop){
-            navbar.classList.add("sticky");
-        }
-        else{
-            navbar.classList.remove("sticky");
-        }
-    }
-</script>
 </html>
