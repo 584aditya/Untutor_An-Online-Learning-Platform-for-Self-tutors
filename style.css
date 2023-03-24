@@ -294,6 +294,27 @@ nav #bars-ico{
   transform: translate(-0px);
 }
 
+#mp-play{
+  transition: 0.4s;
+  font-size: 22px;
+}
+#mp-play:hover{
+  transform: rotate(90deg);
+}
+
+.music-player{
+  background: #fff;
+  width: 400px;
+  padding: 95px 35px;
+  margin-top: 4%;
+  text-align: center;
+  display: none;
+}
+
+.music-player:hover > {
+  display: block;
+}
+
 @media (max-width: 700px){
 nav ul{
   margin-top: 100px;
