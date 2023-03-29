@@ -149,7 +149,7 @@ nav ul ul li,.years{
   }
   
   .visit-btn:hover {
-    background: #fff;
+    background: #ffff00;
     padding: 20px 30px;
     color: #000;
   }
@@ -320,5 +320,16 @@ nav ul{
   margin-top: 100px;
   margin-right: 100%;
   display: flex;
+}
+
+#mp-play{
+  display: flex;
+  flex-direction: column;
+  margin-left: 14rem;
+  margin-top: 2%;
+}
+
+nav ul{
+  display: none;
 }
 }
