@@ -196,15 +196,19 @@ nav #bars-ico{
   animation: spin 1s linear infinite;
 }
 
-/* @keyframes rotate{
-  0% {
-    transform: rotateZ(0deg);
-  }
-  100% {
-    transform: rotate(359deg);
-  }
-} */
+/* scroll bar css */
+::-webkit-scrollbar{
+  width: 15px;
+}
 
+::-webkit-scrollbar-track{
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(#ffff00,#fff);
+  border-radius: 10px;
+}
 .vinyl img{
   width: 40px;
   margin-top:680px;
@@ -327,6 +331,43 @@ nav ul{
   flex-direction: column;
   margin-left: 14rem;
   margin-top: 2%;
+}
+
+.s-t-t{
+  display: none;
+}
+
+.s-t-m{
+  z-index: 1;
+  position: fixed;
+  background: #ffff00;
+  text-decoration: none;
+  color: #000;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  margin: 52rem 0 0 87%;
+  transition: 0.4s;
+  box-shadow: 0 4px 14px #ffff00;
+  overflow: hidden;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 1.1em;
+  font-weight: 200;
+  border-radius: 50%;
+}
+
+.s-t-m::before{
+  content: "";
+  position: absolute;
+  right: 25px;
+  width: 12px;
+  height: 12px;
+  border-top: 3px solid #000;
+  border-right: 3px solid #000;
+  transform: rotate(-45deg);
+  top: 19px;
+  left: 14px;
 }
 
 nav ul{
