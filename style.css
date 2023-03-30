@@ -329,7 +329,7 @@ nav ul{
 #mp-play{
   display: flex;
   flex-direction: column;
-  margin-left: 08rem;
+  margin-left: 7.5rem;
   margin-top: 2%;
 }
 
@@ -346,7 +346,7 @@ nav ul{
   width: 45px;
   height: 45px;
   display: flex;
-  margin: 32rem 0 0 85%;
+  margin: 38.5rem 0 0 85%;
   transition: 0.4s;
   box-shadow: 0 4px 14px #ffff00;
   overflow: hidden;
@@ -370,6 +370,9 @@ nav ul{
   left: 15px;
 }
 
+.logo{
+  margin-left: -1.5rem;
+}
 nav ul{
   display: none;
 }
