@@ -196,19 +196,6 @@ nav #bars-ico{
   animation: spin 1s linear infinite;
 }
 
-/* scroll bar css */
-::-webkit-scrollbar{
-  width: 15px;
-}
-
-::-webkit-scrollbar-track{
-  background: #fff;
-}
-
-::-webkit-scrollbar-thumb{
-  background: linear-gradient(#ffff00,#fff);
-  border-radius: 10px;
-}
 .vinyl img{
   width: 40px;
   margin-top:680px;
